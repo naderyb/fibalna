@@ -10,7 +10,8 @@ const PREDEFINED = [
     description: "Initiation au crochet - techniques de base et réalisation d'un bonnet pour l'hiver.",
     mentors: "FERHAT Ibtissam, FARES Nedjma",
     price: 1200,
-    currency: "DA"
+    currency: "DA",
+    open: true // inscription ouverte seulement pour cette formation
   },
   {
     id: 2,
@@ -20,7 +21,8 @@ const PREDEFINED = [
     description: "Conception et fabrication de bijoux simples.",
     mentors: "Pas encore definis",
     price: "Pas encore definis",
-    currency: "DA"
+    currency: "DA",
+    open: false
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ const PREDEFINED = [
     description: "Peinture et personnalisation de tote bags, repartez avec votre création.",
     mentors: "Pas encore definis",
     price: "Pas encore definis",
-    currency: "DA"
+    currency: "DA",
+    open: false
   }
 ];
 
