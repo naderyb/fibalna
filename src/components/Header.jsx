@@ -64,7 +64,7 @@ export default function Header() {
             aria-label="Toggle menu"
             aria-expanded={isMobileMenuOpen}
           >
-            <svg
+            <png
               className="w-6 h-6"
               fill="none"
               stroke="currentColor"
@@ -85,7 +85,7 @@ export default function Header() {
                   d="M4 6h16M4 12h16M4 18h16"
                 />
               )}
-            </svg>
+            </png>
           </button>
         </div>
 
