@@ -57,21 +57,28 @@ export default function Hero() {
             className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white rounded-xl shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 font-semibold"
           >
             Voir les ateliers
-            <png className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </png>
+            {/* Arrow SVG — moves slightly to the right on hover */}
+            <svg
+              className="w-5 h-5 transform transition-transform duration-200 group-hover:translate-x-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5-5 5M6 12h12" />
+            </svg>
           </a>
-                {/* Enhanced bottom banner */}
-      <div className="absolute top-10  left-0 right-0 z-10 py-6">
-        <div className="flex items-center justify-center gap-2 text-slate-600">
-          <png className="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
-          </png>
-          <span className="text-sm font-medium">
-            Les bénéfices servent l'orphelinat de Aïn Taya
-          </span>
-        </div>
-      </div>
+          {/* Enhanced bottom banner */}
+          <div className="absolute top-10  left-0 right-0 z-10 py-6">
+            <div className="flex items-center justify-center gap-2 text-slate-600">
+              <png className="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+              </png>
+              <span className="text-sm font-medium">
+                Les bénéfices servent l'orphelinat de Aïn Taya
+              </span>
+            </div>
+          </div>
         </div>
         
 

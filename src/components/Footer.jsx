@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
             {/* Replace with your Fi Balna logo in public/assets/site-logo.png */}
-            <img src="/assets/site-logo.png" alt="Fi Balna" className="w-12 h-12 object-contain rounded-md" />
+            <img src="/fibalna.jpg" alt="Fi Balna" className="w-12 h-12 object-contain rounded-md" />
             <div>
               <h3 className="text-lg font-semibold text-slate-900">Fi Balna</h3>
               <p className="text-sm text-slate-600">Événement caritatif pour collecter des fonds au profit de l'orphelinat d'Aïn Taya.</p>
@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
 
           <p className="text-sm text-slate-600 max-w-sm">
-            Fi Balna organise une série d'ateliers solidaires (crochet, bijoux, peinture) — les bénéfices
+            Fi Balna organise une série d'ateliers solidaires (crochet, bijoux, peinture) - les bénéfices
             servent à améliorer la nourriture, les fournitures et les activités pour les enfants.
           </p>
         </div>
@@ -26,7 +26,6 @@ export default function Footer() {
           <h4 className="text-sm font-medium text-slate-900">Navigation</h4>
           <a href="#hero" className="text-sm text-slate-600 hover:text-indigo-600">Accueil</a>
           <a href="#workshops" className="text-sm text-slate-600 hover:text-indigo-600">Ateliers</a>
-          <a href="#donation" className="text-sm text-slate-600 hover:text-indigo-600">Compteur</a>
           <a href="#contact" className="text-sm text-slate-600 hover:text-indigo-600">Contact</a>
         </nav>
 
@@ -85,7 +84,7 @@ export default function Footer() {
 
       <div className="border-t border-white/30 mt-4">
         <div className="max-w-6xl mx-auto px-6 py-4 text-center text-sm text-slate-600">
-          © {new Date().getFullYear()} Fi Balna — Tous droits réservés.
+          © {new Date().getFullYear()} Fi Balna - Tous droits réservés.
         </div>
       </div>
     </footer>
