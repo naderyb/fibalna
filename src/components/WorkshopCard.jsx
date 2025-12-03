@@ -13,7 +13,7 @@ export default function WorkshopCard({ workshop }) {
 
     const name = prompt(`Votre nom pour l'inscription à : ${title}`);
     if (name) {
-      alert(`Merci ${name} — inscription reçue pour "${title}". Veuillez procéder au paiement pour confirmer.`);
+      alert(`Merci ${name} - inscription reçue pour "${title}". Veuillez procéder au paiement pour confirmer.`);
       setOpen(false);
     }
   };
@@ -146,7 +146,7 @@ export default function WorkshopCard({ workshop }) {
           <div className="bg-white/80 backdrop-blur-lg rounded-2xl max-w-sm w-full p-6 text-center shadow-xl border border-white/50 animate-fade-up">
             <h4 className="text-xl font-bold text-slate-900 mb-2">Inscription fermée</h4>
             <p className="text-sm text-slate-600 mb-4">
-              L’inscription n’est pas encore ouverte — restez branché.
+              L’inscription n’est pas encore ouverte - restez branché.
             </p>
 
             <button

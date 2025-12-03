@@ -8,14 +8,14 @@ export default function Hero() {
       <div className="absolute -right-32 -bottom-32 w-96 h-96 bg-gradient-to-tl from-rose-200 to-rose-100 rounded-full opacity-40 animate-blob animation-delay-2000 mix-blend-multiply blur-xl"></div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-purple-100 to-pink-100 rounded-full opacity-30 animate-blob animation-delay-4000 mix-blend-multiply blur-2xl"></div>
 
-      <div className="relative z-10 max-w-5xl px-6 text-center">
+      <div className="relative z-10 max-w-5xl px-6 text-center mt-16">
         {/* Logo section with enhanced styling */}
         <div className="flex items-center justify-center gap-8 mb-10 animate-fade-up">
-          <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+          <div>
             <img src="/msclub.png" alt="MS Club" className="w-20 h-20 object-contain" />
           </div>
           <div className="w-px h-16 bg-gradient-to-b from-transparent via-slate-300 to-transparent"></div>
-          <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+          <div>
             <img src="/nexus.svg" alt="Nexus Club" className="w-20 h-20 object-contain" />
           </div>
         </div>
@@ -48,6 +48,7 @@ export default function Hero() {
             Rejoignez-nous pour des ateliers solidaires.
           </span>
         </p>
+        
 
         {/* Enhanced CTA buttons */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up delay-400">
@@ -60,16 +61,22 @@ export default function Hero() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </a>
-          <a 
-            href="#about" 
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white/80 backdrop-blur-sm text-slate-700 rounded-xl shadow hover:shadow-lg hover:scale-105 transition-all duration-300 font-semibold border border-slate-200"
-          >
-            En savoir plus
-          </a>
+                {/* Enhanced bottom banner */}
+      <div className="absolute top-10  left-0 right-0 z-10 py-6">
+        <div className="flex items-center justify-center gap-2 text-slate-600">
+          <svg className="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+          </svg>
+          <span className="text-sm font-medium">
+            Les bénéfices servent l'orphelinat de Aïn Taya
+          </span>
         </div>
+      </div>
+        </div>
+        
 
         {/* Stats or highlights */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fade-up delay-500">
+        <div className="mt-16 mb-20 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fade-up delay-500">
           <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/50">
             <div className="text-3xl font-bold text-indigo-600">100%</div>
             <div className="text-sm text-slate-600 mt-1">Des bénéfices reversés</div>
@@ -85,17 +92,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Enhanced bottom banner */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-white/90 to-transparent backdrop-blur-sm py-6">
-        <div className="flex items-center justify-center gap-2 text-slate-600">
-          <svg className="w-5 h-5 text-rose-500" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
-          </svg>
-          <span className="text-sm font-medium">
-            Les bénéfices servent l'orphelinat de Aïn Taya
-          </span>
-        </div>
-      </div>
+
 
       <style jsx>{`
         @keyframes blob {

@@ -10,8 +10,6 @@ export default function App() {
       <Header />
       <main>
         <Hero />
-        <section className="donation-section">
-        </section>
         <Workshops />
       </main>
       <Footer />
