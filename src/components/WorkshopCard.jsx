@@ -11,12 +11,8 @@ export default function WorkshopCard({ workshop }) {
       setNotOpen(true);
       return;
     }
-
-    const name = prompt(`Votre nom pour l'inscription à : ${title}`);
-    if (name) {
-      alert(`Merci ${name} - inscription reçue pour "${title}". Veuillez procéder au paiement pour confirmer.`);
-      setOpen(false);
-    }
+    const registrationUrl = "https://docs.google.com/forms/d/e/1FAIpQLSctQom51iTmQROCUruUZJKICg2evBrX1us3DJuXvJ6c3vZBoA/viewform?fbclid=PAVERFWAOc3QJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaejkldFYPdeY97IgolpldQcjE1P9lTPf8Rlt78KBCeOw3CPl_YuWCnOWUJ2sw_aem_WMyQ1RTRCyItltLNk9APLA"; // Replace with actual URL
+    window.open(registrationUrl, "_blank");
   };
 
   return (
