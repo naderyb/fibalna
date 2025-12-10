@@ -19,7 +19,7 @@ const PREDEFINED = [
     date: "Samedi 13 décembre - Après-midi",
     lieux: "IFAG Higher Institute",
     description: "Conception et fabrication de bijoux simples. LES PLACES SONT TRÈS LIMITÉ!!!",
-    mentors: "Mme Isma de @ismabellissila sur insta",
+    mentors: "Mme Isma de @ismabellissilma sur insta",
     price: 600,
     currency: "DA",
     open: true
