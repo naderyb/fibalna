@@ -11,18 +11,18 @@ const PREDEFINED = [
     mentors: "FERHAT Ibtissam, FARES Nedjma",
     price: 1200,
     currency: "DA",
-    open: true // inscription ouverte seulement pour cette formation
+    open: false // inscription ouverte seulement pour cette formation
   },
   {
     id: 2,
     title: "Atelier Conception de Bijoux",
     date: "Samedi 13 décembre - Après-midi",
     lieux: "IFAG Higher Institute",
-    description: "Conception et fabrication de bijoux simples.",
-    mentors: "Pas encore definis",
-    price: "Pas encore definis",
+    description: "Conception et fabrication de bijoux simples. LES PLACES SONT TRÈS LIMITÉ!!!",
+    mentors: Mme Isma de @ismabellissila sur insta,
+    price: 600,
     currency: "DA",
-    open: false
+    open: true
   },
   {
     id: 3,
