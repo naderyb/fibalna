@@ -11,7 +11,7 @@ export default function WorkshopCard({ workshop }) {
       setNotOpen(true);
       return;
     }
-    const registrationUrl = "https://docs.google.com/forms/d/e/1FAIpQLSctQom51iTmQROCUruUZJKICg2evBrX1us3DJuXvJ6c3vZBoA/viewform?fbclid=PAVERFWAOc3QJleHRuA2FlbQIxMABzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAaejkldFYPdeY97IgolpldQcjE1P9lTPf8Rlt78KBCeOw3CPl_YuWCnOWUJ2sw_aem_WMyQ1RTRCyItltLNk9APLA"; // Replace with actual URL
+    const registrationUrl = "https://l.instagram.com/?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSd2z_jmy6CC9vZ7_yEtyvsSEcNNiTOzv9JY_VqCLftbQKEHAA%2Fviewform%3Fusp%3Ddialog&e=AT2d4rI3MsOwzPTUw_9qjCfd5_YEHze6gm-GCkhCHuI761-20peSXXIbsX1B1gg31vQOx1PUlgfCYb9Sbm2ZOFSj_uKEm1ySrU-g2SU1Fpm2TOwq6hhfui0DktIv"; // Replace with actual URL
     window.open(registrationUrl, "_blank");
   };
 
