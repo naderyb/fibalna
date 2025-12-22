@@ -22,7 +22,7 @@ const PREDEFINED = [
     mentors: "Mme Isma de @ismabellissilma sur insta",
     price: 600,
     currency: "DA",
-    open: true
+    open: false
   },
   {
     id: 3,
@@ -30,8 +30,8 @@ const PREDEFINED = [
     date: "Mardi 16 décembre - Après-midi",
     lieux: "IFAG Higher Institute",
     description: "Peinture et personnalisation de tote bags, repartez avec votre création.",
-    mentors: "Pas encore definis",
-    price: "Pas encore definis",
+    mentors: "M2 students",
+    price: 600,
     currency: "DA",
     open: false
   }
